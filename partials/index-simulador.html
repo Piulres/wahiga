@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Styleguide</title>
+    <meta name="description" content="Cap Online GUI Guide">
+    <meta name="author" content="@Piulres">
+    <meta charset="UTF-8">
+
+    <!-- Scripts -->
+
+    <!-- jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!-- boostrap -->
+    <script type='text/javascript' src='../js/bootstrap.min.js'></script>
+
+    <!-- w3data - script to import html files // notrequired -->
+    <script type='text/javascript' src='../js/w3data.js'></script>
+    
+    <!-- datepicker -->
+    <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
+
+    <!-- custom calls -->
+    <script type='text/javascript' src='../js/script.js'></script>
+
+    <!-- CSS's -->
+    <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+    
+        <div class="navbar navbar-default">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><img class="logo" src="../img/logo.jpg"></a>
+                
+                </div>
+
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    
+                    <div class="nav-search nav navbar-nav">
+                        <input type="text" class="form-control search-bar" placeholder="Buscar">
+                    </div>
+
+                    <ul class="nav-user nav navbar-nav">
+
+                        <div class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <b class="caret"></b>
+                                <img class="avatar" src="../img/ico-user.png">
+                                <p class="user-name">José da Silva Gonçalves</p>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+
+                        </div>
+
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Menu Bar -->    
+    <section>
+        
+        <div class="menu-bar">
+
+            <div class="container">
+
+                <div class="navbar navbar-default"> 
+
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"><a href="#">Início</a></li>
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="#">Documentos</a></li>
+                            <li><a href="#">Propostas</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Dropdown header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="col-lg-6 col-md-offset-3">
+                
+                <h1 class="page-title">SulAmérica Garantia de Aluguel</h1>
+                <h2 class="page-subtitle">Simulador</h2>
+                <p>Calcule rapidamente valores de títulos para seu melhor entendimento junto ao cliente. Faça sua simulação preenchendo os campos abaixo:</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container simulador">
+           
+            <div class="col-lg-6 col-md-offset-3">
+
+                <div class="box">
+
+                    <div class="simulador-box">
+                        <label>Valor do Aluguel*</label>
+                        <input type="text" placeholder="0,00">
+                    </div>
+
+                    <div class="simulador-box">
+                        <label>Quantidade de Alugueis*</label>
+                        <input type="text" placeholder="0,00">
+                    </div>
+
+                </div>           
+
+            </div>
+
+            <div class="col-lg-6 col-md-offset-3">
+                
+                <div class="shield">
+                    
+                    <fieldset class="shield-content">                              
+                        
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                        
+                                <div class="panel-group" id="accordion">
+
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading">
+
+                                            <h4 class="panel-title">
+                                                <a class="add" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Encargos opcionais <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            </h4>
+
+                                        </div>
+
+                                        <div id="collapseOne" class="panel-collapse collapse">
+
+                                            <div class="panel-body">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5">
+                                                        <p class="title">Condomínio</p>
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" placeholder="0,00">
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5">
+                                                        <p class="title">IPTU</p>
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" placeholder="0,00">
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-5">
+                                                        <p class="title">Item Adicionado #1</p>
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" placeholder="0,00">
+                                                    </div>
+
+                                                    <div class="col-lg-1">
+                                                        <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+                                    
+                                                    <div class="col-lg-5">
+                                                        <input type="text" class="form-control" placeholder="Digitar encargo">
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" placeholder="0,00">
+                                                    </div>
+
+                                                </div>
+
+                                                 <div class="row">
+
+                                                    <div class="col-lg-12">
+
+                                                        <button type="button" class="btn btn-link">+ Adicionar encargos mensais</button>
+
+                                                    </div>
+
+                                                </div>   
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="box-btn row">
+
+                            <div class="col-lg-6">
+
+                                <button type="button" class="col-lg-12 btn btn-link">Limpar Dados</button>
+
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                
+                                <button type="button" class="col-lg-12 btn btn-default">Simular</button>
+
+                            </div>
+
+                        </div>        
+
+                    </fieldset>
+
+                </div>
+
+            </div>            
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            
+        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+
+    </footer>
+
+</body>
+</html>

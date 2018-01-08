@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Styleguide</title>
+    <meta name="description" content="Cap Online GUI Guide">
+    <meta name="author" content="@Piulres">
+    <meta charset="UTF-8">
+
+    <!-- Scripts -->
+
+    <!-- jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!-- boostrap -->
+    <script type='text/javascript' src='../js/bootstrap.min.js'></script>
+
+    <!-- w3data - script to import html files // notrequired -->
+    <script type='text/javascript' src='../js/w3data.js'></script>
+    
+    <!-- datepicker -->
+    <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
+
+    <!-- custom calls -->
+    <script type='text/javascript' src='../js/script.js'></script>
+
+    <!-- CSS's -->
+    <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript">
+
+        $( document ).ready(function() {
+
+            var modal = document.getElementById('myModal');
+            var btn = document.getElementById("myLoader");
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+        });
+        
+    </script>
+    
+</head>
+<body>
+
+    <header>
+    
+        <div class="navbar navbar-default">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><img class="logo" src="../img/logo.jpg"></a>
+                
+                </div>
+
+                <div class="offline navbar-collapse collapse navbar-responsive-collapse"> 
+
+                    <ul class="nav nav-user navbar-nav navbar-right">
+                        <li class="active"><a href="#">Início</a></li>
+                        <li><a href="#">Simulador</a></li>    
+                        <li><a href="#" class="modal-click" data-toggle="modal" data-target="#previewModal">Login</a></li>
+                    </ul>
+
+                    <div class="user">
+
+                        <div id="previewModal" class="modal" style="display: none;">
+
+                            <div class="modal-dialog">
+
+                                <div class="modal-content modal-login">
+
+                                    <img class="logo-login" src="../img/logo.png">
+
+                                    <div class="modal-body">
+
+                                        <label class="control-label">Nome do Usuário</label>
+                                        <input type="text" class="form-control">
+
+                                        <label class="control-label">Senha</label>
+                                        <input type="password" class="form-control">
+
+                                        <button type="button" class="btn-user btn btn-primary">Login</button>
+
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">Lembrar-me
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <a class="esqueceu" href="">Esqueceu sua senha?</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="modal-content modal-forgot display">
+
+                                    <img class="logo-login" src="../img/logo.png">
+
+                                    <div class="modal-body">
+
+                                        <h3>Problemas ao fazer login?</h3>
+                                        <ul>
+                                            <li>Nomes de usuários estão no formato de um endereço de email.</li></br>
+                                            <li>As senhas diferenciam maiúsculas de minúsculas.</li>
+                                        </ul>
+                                        <p>Para redefinir a sua senha, insira o seu email.</p>
+
+                                        <label class="control-label">Email</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="cancelar  btn btn-default pull-left">Cancelar</button>
+                                        <button type="button" class="confirmar btn btn-primary pull-right">Confirmar</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="modal-content modal-verify display">
+
+                                    <img class="logo-login" src="../img/logo.png">
+
+                                    <div class="modal-body">
+
+                                        <h3>Verifique seu email</h3></br>
+                                        <p>Enviamos a você um email com um link para concluir a redefinição de sua senha.</p>
+                                        <p>Não localizou o email? Verifique sua pasta de spam.</p>
+                                        <p>Caso ainda não consiga fazer login, reenvie-nos o email ou entre em contato com o administrador.</p>
+
+                                   </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="verificar btn btn-primary">Retornar ao login</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>                              
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section>
+        
+        <div class="container">
+
+            <div class="row">                
+
+                    <div class="col-md-offset-2 col-md-8">
+                        <a href=""><img class="banner" src="../img/banner-home.jpg"></a>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+            
+        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+
+    </footer>
+
+</body>
+</html>

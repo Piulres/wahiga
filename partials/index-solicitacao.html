@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Styleguide</title>
+    <meta name="description" content="Cap Online GUI Guide">
+    <meta name="author" content="@Piulres">
+    <meta charset="UTF-8">
+
+    <!-- Scripts -->
+
+    <!-- jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!-- boostrap -->
+    <script type='text/javascript' src='../js/bootstrap.min.js'></script>
+
+    <!-- w3data - script to import html files // notrequired -->
+    <script type='text/javascript' src='../js/w3data.js'></script>
+    
+    <!-- datepicker -->
+    <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
+
+    <!-- custom calls -->
+    <script type='text/javascript' src='../js/script.js'></script>
+
+    <!-- CSS's -->
+    <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+    
+        <div class="navbar navbar-default">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><img class="logo" src="../img/logo.jpg"></a>
+                
+                </div>
+
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    
+                    <div class="nav-search nav navbar-nav">
+                        <input type="text" class="form-control search-bar" placeholder="Buscar">
+                    </div>
+
+                    <ul class="nav-user nav navbar-nav">
+
+                        <div class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <b class="caret"></b>
+                                <img class="avatar" src="../img/ico-user.png">
+                                <p class="user-name">José da Silva Gonçalves</p>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+
+                        </div>
+
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Menu Bar -->    
+    <section>
+        
+        <div class="menu-bar">
+
+            <div class="container">
+
+                <div class="navbar navbar-default"> 
+
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"><a href="#">Início</a></li>
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="#">Documentos</a></li>
+                            <li><a href="#">Propostas</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Dropdown header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Navigation -->
+    <section>
+
+        <div class="container"> 
+        
+            <div class="navigation">
+                
+                <div class="item col-xs-6 act">Informações da Solicitação</div>
+                <div class="item col-xs-6">Anexos</div>
+
+            </div>
+
+        </div>
+
+        <div class="container"> 
+        
+            <div class="navigation">
+                
+                <div class="item col-25 edt">Informações do Resgate</div>
+                <div class="item col-25 edt"><i class="fa fa-check-circle success" aria-hidden="true"></i>Tipo de Resgate</div>
+                <div class="item col-25 act">Dados do Resgate</div>
+                <div class="item col-25">Dados Bancarios</div>
+                <div class="item col-25"><i class="fa fa-exclamation-triangle warning" aria-hidden="true"></i>Anexos</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container solicitacao">
+                   
+            <p class="aba-teste">Aba1</p>
+            <div class="aba-1 shield">
+                
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <label class="control-label">Nome do Títular</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label class="control-label">Informe a Proposta</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <div class="col-lg-6">
+                            <label class="control-label">Você é o representante legal do locador?</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <label class="control-label">Para quais garantias de aluguel da proposta 8888.02.000002.24-7 você deseja realizar a solicitação?</label>
+                           <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">GA - 160115 / R$1.000,00 (Caucionado)
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">GA - 160110 / R$1.000,00 (Caucionado)
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">GA - 160105 / R$2.000,00 (Descaucionado)
+                                </label>
+                            </div> 
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+            
+            <p class="aba-teste">Aba2</p>
+            <div class="aba-2 shield">
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+                    
+                        <div class="col-lg-12">
+                            <label class="control-label">DESEJA UTILIZAR PARTE DO VALOR DO RESGATE PARA QUITAR DÉBITOS RELATIVOS AO IMÓVEL?</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <label class="control-label">DESEJA APROVEITAR PARTE DO VALOR DO RESGATE PARA A AQUISIÇÃO DE OUTRA GARANTIA DE ALUGUEL?</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <label class="control-label">EXISTE APROVAÇÃO DO LOCATÁRIO PARA O PAGAMENTO DE DÉBITOS?</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Valor do Débito</label>
+                            <input type="text" class="form-control" placeholder="R$ 00,00">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Valor do Débito</label>
+                            <input type="text" class="form-control" placeholder="R$ 00,00">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <button type="button" class="btn btn-link btn-controlador">+CRIAR NOVA PROPOSTA</button>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+            
+            </div>
+            
+            <p class="aba-teste">Aba3</p>
+            <div class="aba-3 shield">
+
+                <legend>DADOS DA GARANTIA DE ALUGUEL</legend>
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">VALOR DO RESGATE <span>(O valor está desatualizado)</span></label>
+                            <input type="text" class="form-control" disabled="" value="R$10.525,00">
+                        </div>
+
+                    </div>
+
+                </fieldset>
+                
+                <legend>DADOS DO IMÓVEL</legend>
+                
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">CEP</label>
+                            <input type="text" class="form-control" disabled="" value="22123-123">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Logradouro</label>
+                            <input type="text" class="form-control" disabled="" value="Rua Uruguai">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Número</label>
+                            <input type="text" class="form-control" disabled="" value="123">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Complemento</label>
+                            <input type="text" class="form-control" disabled="" value="apto 302">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Bairro</label>
+                            <input type="text" class="form-control" disabled="" value="Tijuca">
+                        </div>
+
+                         <div class="col-lg-2">
+                            <label class="control-label">Cidade</label>
+                            <input type="text" class="form-control" disabled="" value="Rio de Janeiro">   
+                        </div>
+
+                        <div class="col-lg-2">
+                            <label for="select" class="control-label">Uf</label>
+                            <select class="form-control" disabled="" id="select">
+                                <option disabled></option>
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AM</option>
+                                <option>AP</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>DF</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MG</option>
+                                <option>MS</option>
+                                <option>MT</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>PR</option>
+                                <option selected disabled>RJ</option>
+                                <option>RN</option>
+                                <option>RO</option>
+                                <option>RR</option>
+                                <option>RS</option>
+                                <option>SC</option>
+                                <option>SE</option>
+                                <option>SP</option>
+                                <option>TO</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">NOME DO LOCADOR</label>
+                            <input type="text" class="form-control" disabled="" value="Júlio Pereira">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">DATA DE CONTRATO DE LOCAÇÃO</label>
+                            <input type="text" class="form-control" disabled="" value="12/11/2016">
+                        </div>
+                    
+                    </div>
+                
+                </fieldset>
+
+                <legend>DADOS DO CLIENTE</legend>
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">NOME</label>
+                            <input type="text" class="form-control" disabled="" value="Gustavo dos Santos">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">CPF/CNPJ</label>
+                            <input type="text" class="form-control" disabled="" value="123.456.789-98">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">IDENTIDADE</label>
+                            <input type="text" class="form-control" disabled="" value="987.654.321-3">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">ORGÃO EMISSOR</label>
+                            <input type="text" class="form-control" disabled="" value="IFP">
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <div class="col-lg-4">
+                            <p class="info">Dados obrigatórios conforme circular SUSEP</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">PROFISSÃO/ATIVIDADE PROFISSIONAL</label>
+                            <input type="text" class="form-control" value="Engenheiro">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">RENDA/PATRIMÔNIO</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected value="Selecione uma opção">Selecione uma opção</option>
+                                <option value="Cliente se recusou a responder">Cliente se recusou a responder</option>
+                                <option selected="" value="R$ 1.000,00 a R$ 5.000,00">R$ 1.000,00 a R$ 5.000,00</option>
+                                <option value="R$ 5.000,01 a R$ 10.000,00">R$ 5.000,01 a R$ 10.000,00</option>
+                                <option value="R$ 10.000,01 a R$ 15.000,00">R$ 10.000,01 a R$ 15.000,00</option>
+                                <option value="acima de R$ 15.000,01">acima de R$ 15.000,01</option>
+                            </select>  
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">TELEFONE</label>
+                            <input type="text" class="form-control" value="(21) 98765-4321">
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">E-MAIL</label>
+                            <input type="text" class="form-control" value="gustavosantos@gmail.com">
+                        </div>
+                    
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <label class="control-label">OBSERVAÇÕES</label>
+                            <textarea class="form-control" rows="5" id="textArea"></textarea>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+            <p class="aba-teste">Aba4</p>
+            <div class="aba-4 shield">
+
+                <legend>DADOS BANCÁRIOS PARA PAGAMENTO DO DÉBITO</legend>
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">TIPO DE CONTA</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Conta Corrente
+                                </label>
+                                <label>
+                                    <input type="radio">Conta Poupança
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">BANCO</label>
+                            <select class="form-control pull-left">
+                                <option selected value="Selecione uma opção">Selecione uma opção</option>
+                                <option value="125 - Banco do Brasil">125 - Banco do Brasil</option>
+                                <option value="143 - Bradesco">143 - Bradesco</option>
+                                <option value="123 - Caixa">123 - Caixa</option>
+                                <option value="341- Itaú">341- Itaú</option>
+                                <option value="Outros">Outros</option>
+                            </select>  
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">AGÊNCIA</label>
+                            <input type="text" class="form-control" value="1234">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">CONTA</label>
+                            <input type="text" class="form-control" value="65432-1">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">TÍTULAR DA CONTA</label>
+                            <input type="text" class="form-control" value="Gustavo da Silva">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">CPF / CNPJ</label>
+                            <input type="text" class="form-control" value="123.456.789-98">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <p class="info">Dados obrigatórios conforme circular SUSEP</p>
+                        </div>
+
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <div class="col-lg-4">
+                            <label class="control-label">PROFISSÃO/ATIVIDADE PROFISSIONAL</label>
+                            <input type="text" class="form-control" value="Engenheiro">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">RENDA/PATRIMÔNIO</label>
+                            <select class="form-control pull-left">
+                                <option selected value="Selecione uma opção">Selecione uma opção</option>
+                                <option value="Cliente se recusou a responder">Cliente se recusou a responder</option>
+                                <option value="R$ 1.000,00 a R$ 5.000,00">R$ 1.000,00 a R$ 5.000,00</option>
+                                <option value="R$ 5.000,01 a R$ 10.000,00">R$ 5.000,01 a R$ 10.000,00</option>
+                                <option value="R$ 10.000,01 a R$ 15.000,00">R$ 10.000,01 a R$ 15.000,00</option>
+                                <option value="acima de R$ 15.000,01">acima de R$ 15.000,01</option>
+                            </select>  
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+                <legend>DADOS BANCÁRIOS</legend>
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+                    
+                        <div class="col-lg-12">
+                            <p class="info-warning">ATENÇÃO:  Mesmo que o saldo remanescente seja igual a zero é obrigatório o preenchimento dos dados bancários</p>
+                        </div>
+
+                    </div>
+                    
+                    <div class="row">
+                    
+                        <div class="col-lg-4">
+                            <label class="control-label">O CLIENTE É TÍTULAR DA CONTA?</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">TIPO DE CONTA</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Conta Corrente
+                                </label>
+                                <label>
+                                    <input type="radio">Conta Poupança
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">BANCO</label>
+                            <select class="form-control pull-left">
+                                <option selected value="Selecione uma opção">Selecione uma opção</option>
+                                <option value="125 - Banco do Brasil">125 - Banco do Brasil</option>
+                                <option value="143 - Bradesco">143 - Bradesco</option>
+                                <option value="123 - Caixa">123 - Caixa</option>
+                                <option value="341- Itaú">341- Itaú</option>
+                                <option value="Outros">Outros</option>
+                            </select>  
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-lg-4">
+                            <label class="control-label">AGÊNCIA</label>
+                            <input type="text" class="form-control" value="1234">
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <label class="control-label">CONTA</label>
+                            <input type="text" class="form-control" value="65432-1">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">TÍTULAR DA CONTA</label>
+                            <input type="text" class="form-control" value="Gustavo da Silva">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">CPF / CNPJ</label>
+                            <input type="text" class="form-control" value="123.456.789-98">
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+            <p class="aba-teste">Aba5</p>
+            <div class="aba-5 shield">
+
+                <legend>DADOS BANCÁRIOS PARA PAGAMENTO DO DÉBITO</legend>
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">
+                                
+                                <i class="fa cls fa-times" aria-hidden="true"></i>
+                                <i class="fa check fa-check-circle" aria-hidden="true"></i>
+                                Formulário
+                                <i class="fa info fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" data-original-title="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i>
+                                
+                            </p>                            
+
+                            <div class="box-files">
+
+                                <div class="row"> 
+
+                                    <div class="col-lg-1">
+
+                                        <div class="modal-content1">
+                                            <div class="loader1"></div>
+                                        </div>
+
+                                    </div>                                   
+
+                                    <div class="files col-lg-3">
+
+                                        <p>
+                                            <i class="fa cls fa-times" aria-hidden="true"></i>
+                                            <i class="fa check fa-check-circle" aria-hidden="true"></i>
+                                            Arquivo 1
+                                            <i class="fa info fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" data-original-title="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i>
+                                        </p>
+
+                                    </div>                                    
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-1">
+
+                                        <div class="modal-content1">
+                                            <div class="loader1"></div>
+                                        </div>
+
+                                    </div>                                   
+
+                                    <div class="files col-lg-3">
+
+                                        <p>Arquivo 2</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>                    
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Documento de Representação do Locador</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">CNPJ</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Identidade</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">CPF</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Documento de Constituição</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Identidade do administrador</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Comprovante de Residência</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Outros</p>
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Button Area -->
+    <section>
+
+        <div class="container"> 
+
+            <div class="button-area">
+
+                <div class="row">
+                        
+                    <div class="col-lg-12">
+
+                        <button type="button" class="btn btn-default pull-right">Próximo</button>
+
+                        <button type="button" class="btn btn-default pull-right">Salvar</button>
+                        
+                        <button type="button" class="btn btn-link pull-right">Cancelar</button>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            
+        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+
+    </footer>
+
+</body>
+</html>

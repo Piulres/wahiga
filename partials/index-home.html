@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Styleguide</title>
+    <meta name="description" content="Cap Online GUI Guide">
+    <meta name="author" content="@Piulres">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- Scripts -->
+
+    <!-- jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!-- boostrap -->
+    <script type='text/javascript' src='../js/bootstrap.min.js'></script>
+
+    <!-- w3data - script to import html files // notrequired -->
+    <script type='text/javascript' src='../js/w3data.js'></script>
+    
+    <!-- datepicker -->
+    <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
+
+    <!-- custom calls -->
+    <script type='text/javascript' src='../js/script.js'></script>
+    <script type='text/javascript' src='../js/script-mobile.js'></script>
+
+    <!-- CSS's -->
+    <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom-mobile.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+    <header>
+    
+        <div class="navbar navbar-default">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    
+                    <button id='btnSideMenu' type="button" class="pull-left navbar-toggle hide-searching">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand hide-searching" href="#"><img class="logo" src="../img/logo.jpg"></a>
+
+                    <span id='searchIcon' class='visible-xs fa fa-search fa-3x'></span>
+
+                    <div class="nav-search nav navbar-nav show-searching">
+                        <input id='searchTop' type="text" class="form-control search-bar" placeholder="Buscar">
+                    </div>
+                
+                </div>
+
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    
+                    <div class="nav-search nav navbar-nav">
+                        <input type="text" class="form-control search-bar" placeholder="Buscar">
+                    </div>
+
+                    <ul class="nav-user nav navbar-nav">
+
+                        <div class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <b class="caret"></b>
+                                <img class="avatar" src="../img/ico-user.png">
+                                <p class="user-name">José da Silva Gonçalves</p>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+
+                        </div>
+
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section id="menu">
+        
+        <div class="menu-bar">
+
+            <div class="container">
+
+                <div class="navbar navbar-default"> 
+
+                    <div>
+                            
+                        <div class='divclose visible-xs'>
+                            <span id='btnCloseMenu' class='fa fa-close fa-3x'></span>
+                        </div>
+
+                        <div class='menu-avatar visible-xs'>
+                            <img class="avatar" src="../img/ico-user-renan.png">
+                            <p class="user-id">User 215847</p>
+                            <p class="user-name">Renan Emidgio</p>
+                            <p class="user-logout">Logout</p>
+                        </div>
+
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"><a href="#">Início</a></li>
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="#">Documentos</a></li>
+                            <li><a href="#">Proposta</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Dropdown header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        
+        <div class="container home">
+
+            <div class="box-left col-md-8 col-xs-12">
+                <a href=""><img class="banner" src="../img/banner-home.jpg"></a>
+            </div>
+
+            <div class="box-right col-md-4 col-xs-12 is-logged">
+
+                <div class="box-home box-non-auth">
+                    <img src="../img/ico_user_orange.png">
+                    <div>
+                        <p class="title">crie sua conta</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a class="link" href="">criar minha conta</a>
+                    </div>
+                </div>
+
+                <div class="box-home box-auth">
+                    <img src="../img/ico_fold.png">
+                    <div>
+                        <p class="title">propostas</p>
+                        <p class='hidden-xs'>Realize o preenchimento dos dados de sua proposta do SulAmérica Garantia de Aluguel de forma rápida e fácil.</p>
+                        <a class="hidden-xs link" href="">ver propostas</a>
+                    </div>
+                </div>
+
+                <div class="box-home box-auth">
+                    <img src="../img/ico_lock.png">
+                    <div>
+                        <p class="title">garantia de aluguel</p>
+                        <p class='hidden-xs'>Consulte as informações dos títulos de seus clientes.</p>
+                        <a class="hidden-xs link" href="">ver garantias</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+            
+        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+
+    </footer>
+
+</body>
+</html>

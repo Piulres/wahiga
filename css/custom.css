@@ -1,0 +1,312 @@
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+header .first {
+    background-color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    color: #9b9b9b;
+    font-family: 'Libre Franklin', sans-serif;
+    /*font-family: 'Crimson Text', serif;*/
+}
+
+header .first .navbar-default {    
+    background-color: transparent;
+    border-radius: 0;
+    height: 60px;
+    margin: 0;
+}
+
+header .first .navbar-default li a {
+    padding: 20px 15px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+header .second {
+    background-color: #181818;
+    font-weight: 900;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header .second .container {
+    border-bottom: 1px solid #eea319; 
+}
+
+header .second .logo {
+    margin: 0 auto;
+    display: block;
+    width: 170px;
+    padding: 45px 0;
+}
+
+header .second .navbar-default {
+    background-color: transparent;
+    border-radius: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header .second .nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .second .dropdown-menu .drop-img {
+    height: 410px;
+    width: 100%;
+}
+
+header .second .dropdown-menu .row > div {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+header .second ul.set-1 {
+    height: 410px;
+    background-color: #eea319;
+    list-style: none;
+    padding-top: 50px;
+}
+
+header .second ul.set-1 a {
+    color: #181818;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 35px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+}
+
+header .second ul.set-1 .active:before{
+    content: '';    
+    display: block;
+    float: right;
+    margin-top: 8px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #181818; 
+}
+
+header .second ul.set-2 {
+    height: 410px;
+    background-color: #181818;
+    list-style: none;
+    padding: 50px 30px;
+    font-weight: 500;
+}
+
+header .second ul.set-2 a {
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    display: block;
+}
+
+header .second ul.set-2 a.active {
+    color: #eea319;
+}
+
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+    position: static;
+}
+.yamm .container {
+    position: relative;
+}
+.yamm .dropdown-menu {
+    left: auto;
+}
+.yamm .yamm-content {
+    padding: 0px 15px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    header .second .navbar-nav {
+        float: none;
+    }
+}
+
+.yamm .box {
+    width: 100%;
+    height: 200px;
+    margin-top: -200px;
+    padding: 0px 50px;
+    background: transparent;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+}
+
+.yamm .box h2 {
+    width: 100%;
+}
+
+.yamm .box .content {
+    width: 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+
+section .third {}
+section .third .owl-carousel {}
+
+section .third .owl-carousel .owl-item, section .third .owl-carousel .owl-item > div {
+    height: 600px;
+}
+
+section .third .owl-carousel .owl-item img { 
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    margin-top: -300px;
+    padding: 0px 50px;
+    background: linear-gradient(transparent, #000000, #000000, #000000);
+    display: block;
+    z-index: 1000;
+    position: relative;
+}
+.box hr {
+    width: 30px;
+    float: left;
+    z-index: 1000;
+    position: relative;
+    margin: 15px 7px 15px 0;
+    border-top: 3px solid #ffffff;
+}
+
+.box .cat-name {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+.box .post-date {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'Crimson Text', serif;
+}
+.box h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #ffffff;
+    width: 50%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.box .content {
+    font-weight: 400;
+    color: #ffffff;
+    width: 50%;
+    font-family: 'Crimson Text', serif;
+}
+.box .read-more {
+    font-size: 16px;
+    font-weight: bold;  
+    font-style: italic;   
+    color: #ffffff;    
+    width: max-content;
+    font-family: 'Crimson Text', serif;
+}
+
+section .third .owl-theme .owl-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+section .third .owl-carousel .owl-nav button {
+    color: #FFF;
+    font-size: 25px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    width: 50px;
+    padding: 5px!important;
+    font-family: 'Crimson Text', serif;
+    opacity: 0.5;
+}
+
+section .third .owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color: gray;
+    opacity: 1;
+}
+
+section .third .owl-carousel .owl-nav [class*=owl-]:focus {
+    outline:0;
+}
+
+section .third .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 200px;
+    right: 20%;
+} 
+
+section .third .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+
+/* Category */
+
+.box.category-1 .cat-name {
+    color: #eea319;
+}
+
+.box.category-1 .read-more {
+    border-bottom: 3px solid #eea319;
+}
+
+.box.category-2 .cat-name {
+    color: #7700bb;
+}
+
+.box.category-2 .read-more {
+    border-bottom: 3px solid #7700bb;
+}
+
+.box.category-3 .cat-name {
+    color: #4a90e2;
+}
+
+.box.category-3 .read-more {
+    border-bottom: 3px solid #4a90e2;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */

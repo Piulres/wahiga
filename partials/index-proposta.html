@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Styleguide</title>
+    <meta name="description" content="Cap Online GUI Guide">
+    <meta name="author" content="@Piulres">
+    <meta charset="UTF-8">
+
+    <!-- Scripts -->
+
+    <!-- jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!-- boostrap -->
+    <script type='text/javascript' src='../js/bootstrap.min.js'></script>
+
+    <!-- w3data - script to import html files // notrequired -->
+    <script type='text/javascript' src='../js/w3data.js'></script>
+    
+    <!-- datepicker -->
+    <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
+
+    <!-- custom calls -->
+    <script type='text/javascript' src='../js/script.js'></script>
+
+    <!-- CSS's -->
+    <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <header>
+    
+        <div class="navbar navbar-default">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><img class="logo" src="../img/logo.jpg"></a>
+                
+                </div>
+
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    
+                    <div class="nav-search nav navbar-nav">
+                        <input type="text" class="form-control search-bar" placeholder="Buscar">
+                    </div>
+
+                    <ul class="nav-user nav navbar-nav">
+
+                        <div class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <b class="caret"></b>
+                                <img class="avatar" src="../img/ico-user.png">
+                                <p class="user-name">José da Silva Gonçalves</p>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+
+                        </div>
+
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section>
+        
+        <div class="menu-bar">
+
+            <div class="container">
+
+                <div class="navbar navbar-default"> 
+
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"><a href="#">Início</a></li>
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="#">Documentos</a></li>
+                            <li><a href="#">Proposta</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Dropdown header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Navigation -->
+    <section>
+
+        <div class="container"> 
+        
+            <div class="navigation">
+                
+                <!-- add class "act" to active tab and "edt" to past tabs -->
+                <div class="item col-lg-2 edt"><i class="fa fa-exclamation-triangle warning" aria-hidden="true"></i>Informações do Cliente</div>
+                <div class="item col-lg-2 edt"></i>Informações da Proposta</div>
+                <div class="item col-lg-2 act">Carta Caução</div>
+                <div class="item col-lg-2">Gerar Proposta</div>
+                <div class="item col-lg-2">Boleto / Formulário</div>
+                <div class="item col-lg-2">Anexar Documentos</div>
+
+            </div>
+
+        </div>
+
+    </section>    
+
+    <!-- Form -->
+    <section>
+
+        <div class="container proposta">
+
+            <!-- add class "display" in aba-x to hide -->
+            
+            <p class="aba-teste">Aba1</p>
+            <div class="aba-1 shield">
+                
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Cpf / Cnpj</label>
+                            <input type="text" class="form-control" placeholder="Pesquisar CPF">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Nome / Razão Social</label>
+                            <input type="text" class="form-control" placeholder="Pesquisar Cadastros">
+                        </div>
+
+                    </div>                     
+
+                </fieldset>
+
+                <legend>Dados Susep</legend>
+                
+                <fieldset class="shield-content">
+                
+                    <div class="row">
+                        
+                        <div class="col-lg-4">
+                            <label class="control-label">Profissão / Atividade Profissional</label>
+                            <input type="text" class="form-control">    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Código de declaração de renda / Patrimônio</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected>Selecione</option>
+                                <option>Valor informado pelo cliente</option>
+                                <option>Cliente se recusou a informar</option>
+                            </select>    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Valor de Renda / Patrimônio</label>
+                            <input type="text" class="form-control" placeholder="R$ 00,00">    
+                        </div>
+
+                    </div>                    
+
+                </fieldset>
+
+                <legend>Controladores / Sócios / Procuradores</legend>
+
+                <fieldset class="shield-content">
+                
+                    <div class="row">
+                        
+                        <div class="col-lg-9">
+
+                            <div class="controlador">
+
+                            	<div class="row">
+                                
+	                                <div class="col-lg-3">
+	                                    <label class="control-label">Cpf / Cnpj</label>
+	                                    <input type="text" class="form-control">
+	                                </div>
+
+	                                <div class="col-lg-3">
+	                                    <label class="control-label">Nome / Razão Social</label>
+	                                    <input type="text" class="form-control">
+	                                </div>
+
+	                                <div class="col-lg-4">
+	                                    <label class="control-label">Origem do Recurso Financeiro</label>
+	                                    <input type="text" class="form-control">
+	                                </div>
+
+	                                <!-- 
+	                                <div class="col-lg-2">
+	                                    <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+	                                </div> 
+	                                -->
+
+                                </div>
+
+                            </div>
+
+                            <div class="controlador">
+
+                                <div class="row">
+                                
+                                    <div class="col-lg-3">
+	                                    <label class="control-label">Cpf / Cnpj</label>
+	                                </div>
+
+	                                <div class="col-lg-3">
+	                                    <label class="control-label">Nome / Razão Social</label>
+	                                </div>
+
+	                                <div class="col-lg-4">
+	                                    <label class="control-label">Origem do Recurso Financeiro</label>
+	                                </div>
+
+	                                <!-- 
+	                                <div class="col-lg-2">
+                                        <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+                                    </div> -->
+
+                                </div>
+
+                                <div class="row">
+                                
+                                    <div class="col-lg-3">
+                                        <input disabled type="text" class="form-control" value="17.338.795/0008-45">
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <input disabled type="text" class="form-control" value="José da Silva ME">
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <input disabled type="text" class="form-control" value="Origem Recurso Financeiro">
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                
+                                    <div class="col-lg-3">
+                                        <input disabled type="text" class="form-control" value="56.657.934/0004-15">
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <input disabled type="text" class="form-control" value="Marcos Gomes ME">
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <input disabled type="text" class="form-control" value="Origem Recurso Financeiro">
+                                    </div>	
+
+                                    <div class="col-lg-2">
+                                        <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+                                    </div>
+
+                                </div>
+
+                            </div>                             
+
+                        </div>
+
+                        <div class="col-lg-3">
+
+                            <button type="button" class="btn-controlador btn btn-link pull-left">+ Adicionar Controlador</button>
+
+                        </div>
+
+                    </div>
+
+                </fieldset>          
+
+            </div>
+            
+            <p class="aba-teste">Aba2</p>
+            <div class="aba-2 shield">
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Produto</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected>Selecione</option>
+                                <option>Nenhum</option>
+                                <option>14901 - Sulamérica Garantia de Aluguel 15 Meses</option>
+                                <option>41241 - Sulamérica Garantia de Aluguel 12 Meses</option>
+                            </select>    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Registro Susep</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Estrutura de Venda</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected>Selecione a estrutura de venda</option>
+                                <option>132.10099.51962.1452207.1452207 - Sulamerica CAP</option>
+                            </select>  
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+                <legend>Títulos e Valores</legend>
+
+                <fieldset class="shield-content">
+                
+                    <div class="row">
+                        
+                        <div class="col-lg-8">
+
+                            <div class="controlador row">
+                                
+                                <div class="col-lg-5">
+                                    <label class="control-label">Quantidade de Títulos 
+                                        <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" data-original-title="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i>
+                                    </label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+                                <div class="col-lg-5">
+                                    <label class="control-label">Valor Unitário
+                                        <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" data-original-title="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i>
+                                    </label>
+                                    <input type="text" class="form-control" placeholder="R$">
+                                </div>
+
+                            </div>
+
+                            <div class="controlador row">
+
+                                <div>
+                                
+                                    <div class="col-lg-5">
+                                        <label class="control-label">Quantidade de Títulos</label>
+                                    </div>
+
+                                    <div class="col-lg-5">
+                                        <label class="control-label">Valor Unitário</label>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                
+                                    <div class="col-lg-5">
+                                        <input disabled type="text" class="form-control" value="4">
+                                    </div>
+
+                                    <div class="col-lg-5">
+                                        <input disabled type="text" class="form-control" value="R$ 1.000,00">
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+                                    </div>
+
+                                </div>
+
+                                <div>
+
+                                    <div class="col-lg-5">
+                                        <input disabled type="text" class="form-control" value="4">
+                                    </div>
+
+                                    <div class="col-lg-5">
+                                        <input disabled type="text" class="form-control" value="R$ 1.000,00">
+                                    </div>
+
+                                    <div class="col-lg-2">
+                                        <a class="remove" href=""><img src="../img/ico-rem.png"></a>
+                                    </div>
+
+                                </div>
+
+                            </div>                             
+
+                        </div>
+
+                        <div class="col-lg-4">
+
+                            <button type="button" class="btn-controlador btn btn-link">+ Adicionar Título</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-lg-4">
+                            <label class="control-label">Valor do Aluguel</label>
+                            <input type="text" class="form-control">    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Encargos no Cálculo dos Títulos?
+                                <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" data-original-title="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></i>
+                            </label>
+                            <div class="radio encargos">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Multiplicador Cálculo do Título</label>
+                            <input type="text" class="form-control">    
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+            
+            <p class="aba-teste">Aba3</p>
+            <div class="aba-3 shield">
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Locador</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">O administrador do Imóvel é diferente do locador?</label>
+                            <div class="radio registro">
+                                <label>
+                                    <input type="radio">Sim
+                                </label>
+                                <label>
+                                    <input type="radio">Não
+                                </label>
+                            </div>    
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">Locatário / Inquilino é diferente do cliente
+                                </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+                <legend>Endereço</legend>
+
+                <fieldset class="shield-content">
+                    
+                    <div class="row">
+                        
+                        <div class="col-lg-12">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">Usar endereço do cliente
+                                </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+        
+                        <div class="col-lg-4">
+                            <label class="control-label">Cep</label>
+                            <input type="text" class="form-control" placeholder="00000-000">    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Logradouro</label>
+                            <input type="text" class="form-control" placeholder="Rua, avenida, travessa">    
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Número</label>
+                            <input type="text" class="form-control">   
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-lg-4">
+                            <label class="control-label">Complemento (Opcional)</label>
+                            <input type="text" class="form-control" placeholder="Ex: bl 1 apto 201">   
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Bairro</label>
+                            <input type="text" class="form-control">   
+                        </div>
+
+                        <div class="col-lg-2">
+                            <label class="control-label">Cidade</label>
+                            <input type="text" class="form-control">   
+                        </div>
+
+                        <div class="col-lg-2">
+                            <label for="select" class="control-label">Uf</label>
+                            <select class="form-control" id="select">
+                                <option selected disabled></option>
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AM</option>
+                                <option>AP</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>DF</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MG</option>
+                                <option>MS</option>
+                                <option>MT</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>PR</option>
+                                <option>RJ</option>
+                                <option>RN</option>
+                                <option>RO</option>
+                                <option>RR</option>
+                                <option>RS</option>
+                                <option>SC</option>
+                                <option>SE</option>
+                                <option>SP</option>
+                                <option>TO</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">                        
+                            <label class="control-label">Finalidade do Imóvel</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected>Selecione a finalidade do imóvel</option>
+                                <option value="Comercial">Comercial</option>
+                                <option value="Outros">Outros</option>
+                                <option value="Residencial">Residencial</option>
+                                <option value="Veraneio">Veraneio</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Tipo de Imóvel</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected>Selecioneo tipo de imóvel</option>
+                                <option value="Apartamento">Apartamento</option>
+                                <option value="Box">Box</option>
+                                <option value="Casa">Casa</option>
+                                <option value="Flat">Flat</option>
+                                <option value="Galpão">Galpão</option>
+                                <option value="Loja">Loja</option>
+                                <option value="Quiosque">Quiosque</option>
+                                <option value="Sala comercial">Sala comercial</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+            
+            <p class="aba-teste">Aba4</p>
+            <div class="aba-4 shield">
+
+                <fieldset class="shield-content">
+                    
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <label class="control-label">Origem do Recurso Financeiro</label>
+                            <select class="form-control pull-left">
+                                <option disabled selected>Selecione a origem do recurso</option>
+                                <option>Trabalho remunerado</option>
+                                <option>Herança</option>
+                                <option>Aposentadoria</option>
+                                <option>Aplicações Financeiras</option>
+                                <option>Doações</option>
+                                <option>Outros</option>
+                            </select>    
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+                <legend>Resumo da Proposta</legend>
+
+                <fieldset class="shield-content">
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <p class="header">Informações do Cliente</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p class="header">Informações da Proposta</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p class="header">Carta Caução</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-4">
+
+                            <p class="title">Nome / Razão Social do Cliente</p>
+                            <p class="value"><a href="">João Silva</a></p>
+
+                            <p class="title">Declaração de Renda / Patrimônio</p>
+                            <p class="value">Valor informado pelo cliente</p>
+
+                            <p class="title">Renda Mensal</p>
+                            <p class="value">De R$5.000,00 a R$7.999,99</p>
+
+                            <p class="title">Profissão / Atividade Principal</p>
+                            <p class="value">Engenheiro</p>
+
+                            <p class="title">Origem do Recurso Financeiro</p>
+                            <p class="value">Trabalho Remunerado</p>
+
+                            <p class="title">Nome do Contralador 1</p>
+                            <p class="value">Jorge Pereira</p>
+
+                            <p class="title">Cpf Controlador 1</p>
+                            <p class="value">123.456.789-98</p>
+
+                        </div>
+
+                        <div class="col-lg-4">
+
+                            <p class="title">Produto</p>
+                            <p class="value">SulAmérica Garantia de Aluguel 15 meses</p>
+
+                            <p class="title">Registro Susep</p>
+                            <p class="value">98765432123456</p>
+
+                            <p class="title">Estrutura de Venda</p>
+                            <p class="value">132.10099.51962.1452207.1452207</p>
+
+                            <p class="title">Título 1</p>
+                            <p class="value">R$ 5.000,00</p>
+
+                            <p class="title">Título 2</p>
+                            <p class="value">R$ 2.000,00</p>
+
+                            <p class="title">Título 3</p>
+                            <p class="value">R$ 1.000,00</p>
+
+                            <p class="title">Valor do Aluguel</p>
+                            <p class="value">R$ 3.000,00</p>
+
+                            <p class="title">Encargos no Cálculo do Título</p>
+                            <p class="value">Sim</p>
+
+                            <p class="title">Multiplicador Cálculo do Título</p>
+                            <p class="value">2</p>
+
+                        </div>
+
+                        <div class="col-lg-4">
+
+                            <p class="title">Locador</p>
+                            <p class="value">José Santos</p>
+
+                            <p class="title">O administrador do imóvel é diferente do locador?</p>
+                            <p class="value">Sim</p>
+
+
+                            <p class="title">Administrador do Imóvel</p>
+                            <p class="value">Nova Época Imóveis</p>
+                            
+                            <p class="title">Cpf do Locatário</p>
+                            <p class="value">987.654.321-12</p>
+
+                            <p class="title">Nome / Razão Social do Cliente</p>
+                            <p class="value">Pedro Moreira</p>
+
+                            <p class="title">Cep</p>
+                            <p class="value">24354-010</p>
+
+                            <p class="title">Endereço</p>
+                            <p class="value">Rua 28 de Setembro 312 / apto 501 / Vila Isabel / Rio de Janeiro, RJ</p>
+
+                            <p class="title">Finalidade do Imóvel</p>
+                            <p class="value">Residencial</p>
+
+                            <p class="title">Tipo de Imóvel</p>
+                            <p class="value">Apartamento</p>
+
+                        </div>
+
+                    </div>                                        
+
+                </fieldset>
+
+            </div>
+            
+            <p class="aba-teste">Aba5</p>
+            <div class="aba-5 shield">
+
+                <fieldset class="shield-content">
+                    
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <h2 class="documento text-center">Proposta criada e enviada para transmissão com sucesso! <span>:)</span></h2>
+                            <p class="documento text-center">Providencie assinatura da proposta e carta caução, e impressão do boleto.</p>
+
+                        </div>
+
+                        <div class="col-lg-12">
+
+                            <div class="box">
+
+                                <div class="col-lg-6">
+                                    <a class="box-doc pull-right" href=""><img class="ico-doc" src="../img/ico-bol.png"><p>Gerar Boleto</p></a>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <a class="box-doc pull-left" href=""><img class="ico-doc" src="../img/ico-prt.png"><p>Imprimir Documento</p></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+            
+            <p class="aba-teste">Aba6</p>
+            <div class="aba-6 shield">
+
+                <legend>Lista de Arquivos</legend>
+
+                <fieldset class="shield-content">
+                    
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Proposta</p>
+
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-lg-12">
+
+                            <button type="file" class="pull-left btn btn-default">Selecionar Arquivo</button>
+                            <p class="anexo pull-left">Carta Caução</p>
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Button Area -->
+    <section>
+
+        <div class="container"> 
+
+            <div class="button-area">
+
+                <div class="row">
+                        
+                    <div class="col-lg-12">
+
+                        <button type="button" class="btn btn-default pull-right">Próximo</button>
+
+                        <button type="button" class="btn btn-default pull-right">Anterior</button>
+
+                        <button type="button" class="btn btn-default pull-right">Salvar</button>
+                        
+                        <button type="button" class="btn btn-link pull-right">Cancelar</button>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <footer>
+            
+        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Styleguide</title>
+    <meta name="description" content="Cap Online GUI Guide">
+    <meta name="author" content="@Piulres">
+    <meta charset="UTF-8">
+
+    <!-- Scripts -->
+
+    <!-- jquery -->
+    <script type='text/javascript' src='../js/jquery.js'></script>
+
+    <!-- boostrap -->
+    <script type='text/javascript' src='../js/bootstrap.min.js'></script>
+
+    <!-- w3data - script to import html files // notrequired -->
+    <script type='text/javascript' src='../js/w3data.js'></script>
+    
+    <!-- datepicker -->
+    <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
+
+    <!-- custom calls -->
+    <script type='text/javascript' src='../js/script.js'></script>
+
+    <!-- CSS's -->
+    <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/custom.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+    
+        <div class="navbar navbar-default">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"><img class="logo" src="../img/logo.jpg"></a>
+                
+                </div>
+
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    
+                    <div class="nav-search nav navbar-nav">
+                        <input type="text" class="form-control search-bar" placeholder="Buscar">
+                    </div>
+
+                    <ul class="nav-user nav navbar-nav">
+
+                        <div class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <b class="caret"></b>
+                                <img class="avatar" src="../img/ico-user.png">
+                                <p class="user-name">José da Silva Gonçalves</p>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+
+                        </div>
+
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Menu Bar -->    
+    <section>
+        
+        <div class="menu-bar">
+
+            <div class="container">
+
+                <div class="navbar navbar-default"> 
+
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"><a href="#">Início</a></li>
+                            <li><a href="#">Cadastro</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="#">Documentos</a></li>
+                            <li><a href="#">Propostas</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Dropdown header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Button Area -->
+    <section>
+
+        <div class="container">
+        
+            <div class="button-area">
+
+                <div class="row">
+                        
+                    <div class="col-lg-12">
+
+                        <button type="button" class="btn btn-outlined pull-right">Reprovar</button>
+                        
+                        <button type="button" class="btn btn-outlined pull-right">Enviar</button>
+                        
+                        <button type="button" class="btn btn-outlined pull-right">Gerar Formulário</button>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Navigation -->
+    <section>
+
+        <div class="container"> 
+        
+            <div class="navigation">
+                
+                <div class="item col-25">Informações do Resgate</div>
+                <div class="item col-25">Tipo de Resgate</div>
+                <div class="item col-25">Dados do Resgate</div>
+                <div class="item col-25">Dados Bancarios</div>
+                <div class="item col-25 act"><i class="fa fa-exclamation-triangle warning" aria-hidden="true"></i>Anexos</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Detalhes Header -->
+    <section>
+
+        <div class="container">            
+            
+            <div class="shield shield-detalhe">
+
+                <p class="item1">Solicitação Aprovada</p>
+                <p class="item2">Resgate</p>
+                <p class="item3">N DA SOLICITAÇÃO: <span>00867263</span></p>
+                <div class="shield-detalhe-opt">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                    <p>editar</p>
+                </div>
+                <div class="shield-detalhe-opt">
+                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                    <p>clonar</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Detalhes -->
+    <section>
+
+        <div class="detalhes">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-8">
+
+                        <h3 class="box-title">Detalhes</h3>
+                        
+                        <div class="shield">
+                            
+                            <legend>Resgate</legend>
+                    
+                            <div class="shield-content">
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Nome / Razão Social</p>
+                                        <p class="item2"><a href="">Hugo Felipe Longo de Souza</a></p>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Proposta</p>
+                                        <p class="item2"><a href="">8888.02.000002.24-7</a></p>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Status</p>
+                                        <p class="item2">NOVO</p>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Valor Nominal</p>
+                                        <p class="item2">R$ 4.000,00</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Valor do Resgate</p>
+                                        <p class="item2">R$ 4.000,00</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <legend>Dados Bancários</legend>
+                    
+                            <div class="shield-content">
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Tipo de Conta</p>
+                                        <p class="item2">Corrente</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Banco</p>
+                                        <p class="item2">Itaú</p>
+                                    </div>  
+
+                                </div>  
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Títular da Conta</p>
+                                        <p class="item2">Joao da Silva Junior</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">CPF / CNPJ</p>
+                                        <p class="item2">932.874.836-76</p>
+                                    </div>  
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Agência</p>
+                                        <p class="item2">3542</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Conta</p>
+                                        <p class="item2">63542-7</p>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                            <legend>Dados Bancários - Pagamento de Débito</legend>
+                    
+                            <div class="shield-content">
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Tipo de Conta</p>
+                                        <p class="item2">Corrente</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Banco</p>
+                                        <p class="item2">Itaú</p>
+                                    </div>  
+
+                                </div>  
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Títular da Conta</p>
+                                        <p class="item2">Joao da Silva Junior</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">CPF / CNPJ</p>
+                                        <p class="item2">932.874.836-76</p>
+                                    </div>  
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Agência</p>
+                                        <p class="item2">3542</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Conta</p>
+                                        <p class="item2">63542-7</p>
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                            <legend>Informações</legend>
+
+                            <div class="shield-content">
+
+                                <div class="row">
+                                        
+                                    <div class="col-lg-6">
+                                        <p class="item1">Assunto</p>
+                                        <p class="item2">Resgate</p>
+                                    </div>  
+
+                                    <div class="col-lg-6">
+                                        <p class="item1">Protocolo</p>
+                                        <p class="item2">01-00867263</p>
+                                    </div>  
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+
+                                        <p class="item1">Proprietário</p>
+                                        <img class="avatar" src="../img/ico-user.png">
+                                        <p class="item2">José da Silva Gonçalves</p>
+                                        <p class="item2"><a href="">Alterar Proprietário</a></p>                                       
+                                    
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>                    
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <h3 class="box-title">Relacionados</h3>
+
+                        <div class="panel-group" id="accordion">
+
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading">
+
+                                    <h4 class="panel-title">
+                                        <a class="add" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Proposta<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    </h4>
+
+                                </div>
+
+                                <div id="collapseOne" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+
+                                        <ul>
+                                            <li>Item 1</li>
+                                            <li>Item 2</li>
+                                            <li>Item 3</li>
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading">
+
+                                    <h4 class="panel-title">
+                                        <a class="add" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Garantia de Aluguel<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    </h4>
+
+                                </div>
+
+                                <div id="collapseTwo" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+
+                                        <ul>
+                                            <li>Item 1</li>
+                                            <li>Item 2</li>
+                                            <li>Item 3</li>
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="panel panel-default">
+
+                                <div class="panel-heading">
+
+                                    <h4 class="panel-title">
+                                        <a class="add" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Anexos<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    </h4>
+
+                                </div>
+
+                                <div id="collapseThree" class="panel-collapse collapse">
+
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>Item 1</li>
+                                            <li>Item 2</li>
+                                            <li>Item 3</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            
+        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+
+    </footer>
+
+</body>
+</html>
