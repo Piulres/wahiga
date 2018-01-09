@@ -22,6 +22,13 @@ $( document ).ready(function() {
         }
     }
 
+    $('.effect-3').parallax({imageSrc: '../img/example/back-3.jpg'});
+    $('.effect-2').parallax({imageSrc: '../img/example/back-2.jpg'});
+    $('.effect-1').parallax({imageSrc: '../img/example/back-1.jpg'});
+
+    window.sr = ScrollReveal();
+	sr.reveal('.trick');
+
     // owl-carousel
 
     // mousewheel
