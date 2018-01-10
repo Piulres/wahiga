@@ -1,5 +1,5 @@
 # Wahiga Online GUI Guide
-based on bootstrap
+based on bootstrap :)
 
 ----
 ### Version
