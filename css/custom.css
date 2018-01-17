@@ -463,7 +463,7 @@ section .full-post h3 {
     font-style: italic;
 }    
 
-section .content {
+section .post-content {
     margin-top: 100px;
     color: #fff;
     font-family: 'Crimson Text', serif;
