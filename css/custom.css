@@ -2,6 +2,34 @@ body {
     background-color: #000000;
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.demo {
+    color: #ea9400;
+}
+
+.demo h1, .demo h2 {
+    color: #ea9400;    
+}
+
+.demo a {
+    color: #885a0b;
+    text-decoration: none;
+}
+
+.demo li {
+    list-style: none;
+}
+
+.demo hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ea9400;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
@@ -9,6 +37,12 @@ body {
 
 section {
     margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////// */
@@ -49,15 +83,37 @@ header .second {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-header .second .container {
+header .second .container, footer .container-footer {
     border-bottom: 1px solid #eea319; 
 }
 
-header .second .logo {
+.logo {
     margin: 0 auto;
     display: block;
-    width: 170px;
+    width: 250px;
     padding: 45px 0;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+.c-avatar {
+    width: 100%;
+    height: auto;
+}
+
+.c-avatar-p {
+    font-family: 'Libre Franklin', sans-serif!important;
+    font-size: 12px!important;
+    text-align: center!important;
+    display: block;
+    color: #fff!important;
+    margin-top: 20px;
+    text-decoration: none!important;
+    cursor: pointer;
 }
 
 header .second .navbar-default {
@@ -104,7 +160,7 @@ header .second ul.set-1 a {
 }
 
 header .second a.ga {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -165,6 +221,7 @@ header .second ul.set-2 a.active {
 }
 .yamm .dropdown-menu {
     left: auto;
+    z-index: 5000;
 }
 .yamm .yamm-content {
     padding: 0px 15px;
@@ -345,6 +402,73 @@ section .third .owl-carousel .owl-nav button.owl-prev {
 section .forth .row,
 section .sixth .row {
     margin-bottom: 40px;
+}
+
+section .artigo {
+    margin-top: 50px;
+}
+
+section .full-post {
+    text-align: center;
+}
+section .full-post .content,
+section .full-post .read-more {
+    margin: 20px auto;
+}
+
+section .full-post .baba {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+section .full-post img {
+    height: 500px;
+    width: 100%;
+}
+
+section .full-post .author {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    font-family: 'Crimson Text', serif; 
+}
+
+section .full-post .box {
+    width: 100%;
+    height: 200px;
+    margin-top: -200px;
+    padding: 0px 50px;
+    background: linear-gradient(transparent, #000000, #000000, #000000);
+    display: block;
+    z-index: 1000;
+    position: relative;
+}
+
+section .full-post h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+section .full-post h3 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+}    
+
+section .content {
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .box.panel {
@@ -592,6 +716,339 @@ section .sixth .row {
 .panel-title.category-4 {
     border-bottom: 3px solid #7ed321;
     border-top: 3px solid #7ed321;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+footer {
+    background-color: #181818;
+    padding-bottom: 50px;
+    z-index: 200;
+    position: relative;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a, 
+footer ul li a:hover, 
+footer ul li a:active, 
+footer ul li a:focus {
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer .container-footer {
+    margin-bottom: 50px;
+}
+
+footer .social {
+    text-align: right;
+}
+
+footer .fa {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.btn-zone {
+    top: 30%;
+    margin-left: 80px;
+    width: 180px;
+    position: fixed;
+    z-index: 100;
+    text-align: center;    
+    display: none;
+}
+
+.btn-zone a {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    /* font-family: 'Crimson Text', serif; */
+    font-family: 'Libre Franklin', sans-serif;
+}
+.btn-zone a,
+.btn-zone a:hover,
+.btn-zone a:active,
+.btn-zone a:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-zone a:last-child {
+    border: none;
+}
+
+.btn-zone p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.btn-zone i {
+    font-size: 40px;
+}
+
+
+@media (min-width: 1200px) {
+    .anuncie .container {
+        width: 600px;
+    }
+    .sec-post .container {
+        width: 600px;
+    }
+
+}
+
+.forms h2 {
+    color: #eea319;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.forms p {
+    color: #fff;
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.forms label {
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.forms input {
+    background-color:  transparent!important;
+    border-radius: 0!important;
+    color: #fff!important;
+}
+
+.forms input[type="checkbox"] {
+    margin-top: 3px;
+    width: 12px;
+}
+
+.forms textarea {
+    background-color: transparent!important;
+    overflow: hidden;
+    border-radius: 0!important;
+    color: #fff!important;
+}
+
+.forms .form-group a {
+    color: #fff;
+}
+
+.forms button {
+    background-color: #eea319!important;
+    border: none!important;
+    color: #000!important;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    border-radius: 0;
+    height: 50px;
+}
+
+.forms .form-group {
+    margin-bottom: 20px;
+}
+
+.forms .btn.full {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.forms .btn.face {
+    color: #fff!important;
+    background-color: #3b5998!important;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+#perfil, #perfil-title {
+    margin-top: 50px;
+}
+
+#perfil .nav-tabs {
+    border: none;
+}
+
+#perfil .nav-tabs li {
+    width: 100%;
+    background-color: #181818;
+    margin-bottom: 10px;
+}
+
+#perfil .nav-tabs li a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-left: 5px solid transparent;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    height: 80px;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#perfil .nav-tabs li a:hover, 
+#perfil .nav-tabs li a:active, 
+#perfil .nav-tabs li a:focus {
+    background-color: #181818;
+    border-left: 5px solid #eea319!important;
+    color: #eea319!important;
+}
+
+#perfil h1 {
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#perfil h2,
+#perfil h2 a {
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#perfil h3 {
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#perfil form label {
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#perfil form {
+    margin-top: 30px;
+}
+
+#perfil .mg h1 {
+    margin-bottom: 30px;
+}
+
+#perfil form p { float: left; width: 33%; }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #181818;
+    border-left: 5px solid #eea319!important;
+    color: #eea319!important;
+}
+
+#perfil .le-tab {
+    background-color: #181818;
+    padding: 20px 60px;
+}
+
+#perfil-title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#perfil-title p {
+    float: left;
+    height: 90px;
+    margin:  0;
+    padding: 35px;
+    line-height: 20px;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#perfil-title p span.name {
+    color: #eea319;
+    margin-right: 10px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: transparent;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 8px;
+    height: 7px;
+    background: #eea319;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////// */

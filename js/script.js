@@ -22,6 +22,12 @@ $( document ).ready(function() {
         }
     }
 
+    // tabs
+	$('#perfil a').click(function (e) {
+		e.preventDefault()
+		$(this).tab('show')
+	})
+
     $('.effect-3').parallax({imageSrc: '../img/example/back-3.jpg'});
     $('.effect-2').parallax({imageSrc: '../img/example/back-2.jpg'});
     $('.effect-1').parallax({imageSrc: '../img/example/back-1.jpg'});
@@ -65,4 +71,14 @@ $( document ).ready(function() {
 		navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>","<i class='fa fa-arrow-right' aria-hidden='true'></i>"]
 	})
 
+	$(document).scroll(function() {
+	  var y = $(this).scrollTop();
+	  if (y > 700) {
+	    $('.btn-zone').fadeIn();
+	  } else {
+	    $('.btn-zone').fadeOut();
+	  }
+	});
+
 });
+

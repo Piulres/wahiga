@@ -2,11 +2,12 @@
 <html>
 <head>
 
-    <title>Styleguide</title>
-    <meta name="description" content="Cap Online GUI Guide">
+    <title>Wahiga Styleguide</title>
+    <meta name="description" content="Wahiga Online GUI Guide">
     <meta name="author" content="@Piulres">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8"> <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
 
     <!-- Scripts -->
 
@@ -16,133 +17,742 @@
     <!-- boostrap -->
     <script type='text/javascript' src='../js/bootstrap.min.js'></script>
 
-    <!-- w3data - script to import html files // notrequired -->
-    <script type='text/javascript' src='../js/w3data.js'></script>
-    
+    <!-- bootstrap select -->
+    <script type='text/javascript' src='../js/bootstrap-select.js'></script>
+
     <!-- datepicker -->
     <script type='text/javascript' src='../js/bootstrap-datepicker.js'></script>
 
     <!-- custom calls -->
     <script type='text/javascript' src='../js/script.js'></script>
-    <script type='text/javascript' src='../js/script-mobile.js'></script>
+    
+    <!-- owl carousel -->
+    <script type='text/javascript' src='../js/owl.carousel.min.js'></script>
+
+    <!-- parallax -->
+    <script type='text/javascript' src='../js/parallax.js'></script>
+    
+    <!-- scrollreveal -->    
+    <script type='text/javascript' src='../js/scrollreveal.js'></script>
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- CSS's -->
     <link href='../css/normalize.css' rel='stylesheet' type='text/css'>
     <link href='../css/font-awesome.css' rel='stylesheet' type='text/css'>
     <link href='../css/bootstrap.min.css' rel='stylesheet' type='text/css'>
     <link href='../css/bootstrap-theme-1.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-select.css' rel='stylesheet' type='text/css'>
     <link href='../css/datepicker.css' rel='stylesheet' type='text/css'>
+    <link href='../css/owl.carousel.min.css' rel='stylesheet' type='text/css'>
+    <link href='../css/owl.theme.default.min.css' rel='stylesheet' type='text/css'>
     <link href='../css/custom.css' rel='stylesheet' type='text/css'>
-    <link href='../css/custom-mobile.css' rel='stylesheet' type='text/css'>
 
 </head>
-
-
-<body>
+<body class="page">
 
     <header>
-    
-        <div class="navbar navbar-default">
+        
+        <div class="first">
 
             <div class="container">
+                <nav class="navbar navbar-default">
+
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Assine nossa newsletter</a></li>                
+                            <li><a href="#">Quem Somos</a></li>                
+                            <li><a href="#">Anuncie com a gente</a></li>                
+                        </ul>
+                      
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Registre-se</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+
+        </div>
+        
+        <div class="second">
+
+            <div class="container">
+                <img class="logo" src="../img/logo.png">
+            </div>
+
+            <nav class="navbar yamm navbar-default">
 
                 <div class="navbar-header">
-                    
-                    <button id='btnSideMenu' type="button" class="pull-left navbar-toggle hide-searching">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a class="navbar-brand hide-searching" href="#"><img class="logo" src="../img/logo.jpg"></a>
-
-                    <span id='searchIcon' class='visible-xs fa fa-search fa-3x'></span>
-
-                    <div class="nav-search nav navbar-nav show-searching">
-                        <input id='searchTop' type="text" class="form-control search-bar" placeholder="Buscar">
-                    </div>
-                
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
                 </div>
 
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown yamm-fw">
+                          <a href="#" class="ga dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <ul class="set-1">
+                                                <li><a href="#">PC</a></li>
+                                                <li><a href="#" class="active">Playstation</a></li>
+                                                <li><a href="#">Xbox</a></li>
+                                                <li><a href="#">Nintendo</a></li>
+                                                <li><a href="#">Mobile</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <ul class="set-2">
+                                                <li>
+                                                    <a href="#" class="active">
+                                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                                        sobre Red Dead Redemption 2.
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                                        sobre Red Dead Redemption 2.
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                                        sobre Red Dead Redemption 2.
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <img class="drop-img" src="../img/example/content-1.jpg">
+                                            <div class="box color category-1">
+                                                <p class="cat-name">Games</p>
+                                                <p class="post-date">23/11/2017</p>
+                                                <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                          </ul>
+                        </li> 
+
+                        <li><a class="ga" href="#">Reviews</a></li>
+                        <li><a class="ga" href="#">Artigos</a></li>
+                        <li><a class="ga" href="#">Cinema</a></li>
+                        <li><a class="ga" href="#">Tv/Séries</a></li>
+                        <li><a class="ga" href="#">E-sport</a></li>
+                        <li><a class="ga" href="#">Literatura</a></li>
+                    </ul>                  
                     
-                    <div class="nav-search nav navbar-nav">
-                        <input type="text" class="form-control search-bar" placeholder="Buscar">
+                </div>
+
+            </nav>
+
+        </div>        
+
+    </header>
+
+    <section>
+        
+        <div class="third">
+
+            <!-- <div class="container"> -->               
+
+                <div class="loop owl-carousel owl-theme">
+                    
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-1.jpg">
+                        <div class="box color category-1">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
                     </div>
 
-                    <ul class="nav-user nav navbar-nav">
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-2.jpg">
+                        <div class="box color category-2">
+                            <hr>
+                            <p class="cat-name">Filmes</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+                    </div>
 
-                        <div class="dropdown">
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-3.jpg">
+                        <div class="box color category-3">
+                            <hr>
+                            <p class="cat-name">Artigos</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+                    </div>
 
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <b class="caret"></b>
-                                <img class="avatar" src="../img/ico-user.png">
-                                <p class="user-name">José da Silva Gonçalves</p>
-                            </a>
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-2.jpg">
+                        <div class="box color category-2">
+                            <hr>
+                            <p class="cat-name">Filmes</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+                    </div>
 
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-1.jpg">
+                        <div class="box color category-1">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-2.jpg">
+                        <div class="box color category-2">
+                            <hr>
+                            <p class="cat-name">Filmes</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div>
+                        <img src="../img/example/content-3.jpg">
+                        <div class="box category-3">
+                            <hr>
+                            <p class="cat-name">Artigos</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+                    </div>
+
+                </div>                   
+            
+            <!-- </div> -->
+
+        </div>
+
+        <div class="banner">
+            <img class="banner-type-1" src="../img/example/banner-1.png"/>
+        </div>
+
+    </section>
+
+    <section class="effect-1">
+        
+        <div class="forth">
+            
+            <div class="container">
+
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        
+                        <div class="panel-title">
+                                                        
+                            <h2>Últimas Noticias</h2>
+                            <div class="panel-detail category-2"></div>
 
                         </div>
 
-                    </ul>
+                    </div>
+
+                </div>
+
+                <div class="row">
                     
+                    <div class="col-md-6">
+
+                        <div class="box trick panel category-1">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-2">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-3">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                 
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-2">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-3">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="box trick panel category-1">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                            <p class="read-more">Leia Mais >>>></p>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
 
-    </header>
+        <div class="banner">
+            <img class="banner-type-1" src="../img/example/banner-1.png"/>
+        </div>
 
-    <section id="menu">
+    </section>
+
+    <section class="effect-3">
         
-        <div class="menu-bar">
-
+        <div class="fifth">
+            
             <div class="container">
 
-                <div class="navbar navbar-default"> 
+                <div class="row">
+                    
+                    <div class="col-md-6">
 
-                    <div>
+                        <div class="row">
+                    
+                            <div class="col-md-12">
+
+                                <div class="panel-title">
+                                                                
+                                    <h2>Games</h2>
+                                    <div class="panel-detail category-3"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="row">
+                        
+                            <div class="col-md-12">
+
+                                <div class="box trick panel category-2">
+                                    <img src="../img/example/content-1.jpg">
+                                    <hr>
+                                    <p class="cat-name">Games</p>
+                                    <p class="post-date">23/11/2017</p>
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                    <p class="content">
+                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                        sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                        que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                        história do game, combates…
+                                    </p>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+
+                        <div class="row">
+                                
+                            <div class="col-md-6">
+
+                                <div class="box trick panel category-3">
+                                    <hr>
+                                    <p class="cat-name">Games</p>
+                                    <p class="post-date">23/11/2017</p>
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="box trick panel category-4">
+                                    <hr>
+                                    <p class="cat-name">Games</p>
+                                    <p class="post-date">23/11/2017</p>
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                </div>
+                    
+                            </div>
+                        
+                        </div>
+
+                    </div>                    
+
+                    <div class="col-md-6">
+
+                        <div class="row">
+                    
+                            <div class="col-md-12">
+
+                                <div class="panel-title">
+                                                                
+                                    <h2>Últimos Reviews</h2>
+                                    <div class="panel-detail category-4"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-1">
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            </div>
+                        
+                            <div class="col-md-11">
+
+                                <select class="selectpicker test">
+                                    <option>Mais Recentes #1</option>
+                                    <option>Mais Recentes #2</option>
+                                    <option>Mais Recentes #3</option>                   
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
                             
-                        <div class='divclose visible-xs'>
-                            <span id='btnCloseMenu' class='fa fa-close fa-3x'></span>
+                            <div class="col-md-8">
+
+                                <div class="box trick panel">
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                    <p class="content">
+                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                        sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                        que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                        história do game, combates…
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <div class="score trick">
+                                    <div>9,9</div>
+                                </div>
+                                
+                            </div>
+
                         </div>
 
-                        <div class='menu-avatar visible-xs'>
-                            <img class="avatar" src="../img/ico-user-renan.png">
-                            <p class="user-id">User 215847</p>
-                            <p class="user-name">Renan Emidgio</p>
-                            <p class="user-logout">Logout</p>
+                        <div class="row">
+                            
+                            <div class="col-md-8">
+
+                                <div class="box trick panel">
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                    <p class="content">
+                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                        sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                        que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                        história do game, combates…
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <div class="score trick">
+                                    <div>9,4</div>
+                                </div>
+                                
+                            </div>
+
                         </div>
 
-                        <ul class="nav navbar-nav">
+                        <div class="row">
+                            
+                            <div class="col-md-8">
 
-                            <li class="active"><a href="#">Início</a></li>
-                            <li><a href="#">Cadastro</a></li>
-                            <li><a href="#">Fale Conosco</a></li>
-                            <li><a href="#">Documentos</a></li>
-                            <li><a href="#">Proposta</a></li>
+                                <div class="box trick panel">
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                    <p class="content">
+                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                        sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                        que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                        história do game, combates…
+                                    </p>
+                                </div>
+                                
+                            </div>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Dropdown header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
+                            <div class="col-md-4">
 
-                        </ul>
+                                <div class="score trick">
+                                    <div>10</div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <div class="col-md-8">
+
+                                <div class="box trick panel">
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                    <p class="content">
+                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                        sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                        que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                        história do game, combates…
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <div class="score trick">
+                                    <div>9,4</div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div> 
+
+                </div>
+
+            </div>
+
+            <div class="fullmore">
+                <p class="read-more">Leia Mais >>>></p>
+            </div>
+
+            <div class="banner">
+                <img class="banner-type-1" src="../img/example/banner-1.png"/>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="effect-4">
+        
+        <div class="seventh">
+
+            <div class="editor">
+
+                <div class="box-yellow">
+                    
+                    <div class="col-md-6">
+                        
+                        <img src="../img/example/content-1.jpg"/>
+
+                    </div>
+
+                    <div class="col-md-6 choose">
+                        
+                        <div class="row">
+                        
+                            <div class="col-md-12">
+
+                                <div class="panel-title category-2">
+                                                                
+                                    <h2>Escolha do Editor</h2>
+                                    <div class="panel-detail"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                            
+                        <div class="row">
+                            
+                            <div class="col-md-12">
+
+                                <div class="box trick panel category-2">
+                                    <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                                    <p class="content">
+                                        A Rockstar Games mostrou hoje um pouco mais de informações 
+                                        sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                        que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                        história do game, combates…
+                                    </p>
+                                    <p class="read-more">Leia Mais >>>></p>
+                                </div>
+
+                            </div>
+                            
+                        </div>
 
                     </div>
 
@@ -154,52 +764,183 @@
 
     </section>
 
-    <section>
+    <section class="effect-2">
         
-        <div class="container home">
+        <div class="sixth">
+            
+            <div class="container">
 
-            <div class="box-left col-md-8 col-xs-12">
-                <a href=""><img class="banner" src="../img/banner-home.jpg"></a>
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        
+                        <div class="panel-title">
+                                                        
+                            <h2>Últimas Noticias</h2>
+                            <div class="panel-detail category-2"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    
+                    <div class="col-md-6">
+
+                        <div class="box trick panel category-1">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                            <p class="content">
+                                A Rockstar Games mostrou hoje um pouco mais de informações 
+                                sobre Red Dead Redemption 2. Um novo trailer do título, 
+                                que é de mundo aberto foi lançado, o qual começa mostrando a 
+                                história do game, combates…
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-2">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-3">
+                            <img src="../img/example/content-1.jpg">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                 
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-1">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-2">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-3">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="box trick panel category-4">
+                            <hr>
+                            <p class="cat-name">Games</p>
+                            <p class="post-date">23/11/2017</p>
+                            <h2><a href="#" target="_blank">Red Dead Redemption 2: Confira novo trailer do game</a></h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="box-right col-md-4 col-xs-12 is-logged">
+        </div>
 
-                <div class="box-home box-non-auth">
-                    <img src="../img/ico_user_orange.png">
-                    <div>
-                        <p class="title">crie sua conta</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a class="link" href="">criar minha conta</a>
-                    </div>
-                </div>
-
-                <div class="box-home box-auth">
-                    <img src="../img/ico_fold.png">
-                    <div>
-                        <p class="title">propostas</p>
-                        <p class='hidden-xs'>Realize o preenchimento dos dados de sua proposta do SulAmérica Garantia de Aluguel de forma rápida e fácil.</p>
-                        <a class="hidden-xs link" href="">ver propostas</a>
-                    </div>
-                </div>
-
-                <div class="box-home box-auth">
-                    <img src="../img/ico_lock.png">
-                    <div>
-                        <p class="title">garantia de aluguel</p>
-                        <p class='hidden-xs'>Consulte as informações dos títulos de seus clientes.</p>
-                        <a class="hidden-xs link" href="">ver garantias</a>
-                    </div>
-                </div>
-
-            </div>
-
+        <div class="banner">
+            <img class="banner-type-1" src="../img/example/banner-1.png"/>
         </div>
 
     </section>
 
     <footer>
+
+        <div class="container container-footer">
+
+            <img class="logo" src="../img/logo.png">
+
+        </div>
+
+        
+        <div class="container">
             
-        <p>Copyright © Sulámerica - Todos os direitos reservados | versão 6.15.0412</p>
+            <div class="row">
+                
+                <div class="col-md-2">
+                    <ul>
+                        <li><a href="">Pc</a></li>
+                        <li><a href="">Xbox</a></li>
+                        <li><a href="">Playstation</a></li>
+                        <li><a href="">Switch</a></li>
+                        <li><a href="">Wii</a></li>
+                        <li><a href="">3ds</a></li>
+                        <li><a href="">Vita</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li><a href="">Reviews</a></li>                    
+                        <li><a href="">Artigos</a></li>                    
+                        <li><a href="">Cinema</a></li>                    
+                        <li><a href="">Tv/Séries</a></li>                    
+                        <li><a href="">E-Sports</a></li>                    
+                        <li><a href="">Literatura</a></li>                    
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li><a href="">Quem Somos</a></li>                    
+                        <li><a href="">Contato</a></li>                    
+                        <li><a href="">Anuncie com a gente</a></li>                    
+                        <li><a href="">Sugestão de Pauta</a></li>                    
+                    </ul>
+                </div>
+                <div class="col-md-5 social">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
+        </div>
 
     </footer>
 
