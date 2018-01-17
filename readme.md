@@ -12,10 +12,6 @@ Wahiga GUI uses open source projects to work properly:
 * [jQuery]
 * [Bootstrap]
 
-----
-### Link
-[http://renan.zz.mu/GUI/]
-
 
    [jQuery]: <http://jquery.com/>
    [Bootstrap]: <http://getbootstrap.com/>
