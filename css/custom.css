@@ -353,8 +353,10 @@ section .third .owl-carousel .owl-item img {
 }
 
 .banner .banner-type-1 {    
-    width: 460px;
+    max-width: 460px;
     height: 130px;
+    width: 100%;
+    padding: 20px;
 }
 
 section .third .owl-theme .owl-nav {
@@ -971,6 +973,7 @@ footer .fa {
 #perfil .le-tab {
     background-color: #181818;
     padding: 20px 60px;
+    min-height: 330px;
 }
 
 #perfil-title a {
@@ -1049,6 +1052,60 @@ footer .fa {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+/* less < 400 */
+@media (max-width: 400px) {
+
+    .first {
+        display: none;
+    }
+
+    .box .content {
+            width: 100%;
+    }
+
+    .box-yellow .choose {
+        margin-top: 0;
+    }
+
+    footer .social {
+        text-align: center;
+    }
+
+    footer ul {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #perfil .nav-tabs li a {
+        height: 50px;
+        line-height: 12px;
+        font-weight: 500;
+    }
+
+    section button {
+        width: 100%;
+    }
+}
+
+
+/* less < 400 */
+@media (max-width: 1200px) {
+    .box-yellow .choose {
+        margin-top: 0;
+    }
+}
+
+
+/* more > 800 */
+@media (min-width: 800px) {
+    html {
+     /*background: green;*/
+    }
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////// */

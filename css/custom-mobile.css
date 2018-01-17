@@ -1,0 +1,11 @@
+@media (min-width: 400px) {
+    html {
+      background: red;
+    }
+}
+
+@media (min-width: 850px) {
+    html {
+      background: green;
+    }
+}

@@ -22,15 +22,17 @@ $( document ).ready(function() {
         }
     }
 
+
+    $('.effect-3').parallax({imageSrc: '../img/example/back-3.jpg'});
+    $('.effect-2').parallax({imageSrc: '../img/example/back-2.jpg'});
+    $('.effect-1').parallax({imageSrc: '../img/example/back-1.jpg'});
+
+
     // tabs
 	$('#perfil a').click(function (e) {
 		e.preventDefault()
 		$(this).tab('show')
 	})
-
-    $('.effect-3').parallax({imageSrc: '../img/example/back-3.jpg'});
-    $('.effect-2').parallax({imageSrc: '../img/example/back-2.jpg'});
-    $('.effect-1').parallax({imageSrc: '../img/example/back-1.jpg'});
 
     window.sr = ScrollReveal();
 	sr.reveal('.trick');
@@ -63,12 +65,24 @@ $( document ).ready(function() {
 	$('.owl-carousel').owlCarousel({
 		center: true,
 		loop:true,
-		stagePadding: 200,
 		responsiveClass:true,
-		items:1,
-		nav:true,
 		dots:false,
-		navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>","<i class='fa fa-arrow-right' aria-hidden='true'></i>"]
+		navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>","<i class='fa fa-arrow-right' aria-hidden='true'></i>"],
+		responsive:{
+	        0:{
+	            items:1,
+	            nav:true
+	        },
+	        600:{
+	            items:1,
+	            nav:true
+	        },
+	        1000:{
+	            items:1,
+	            nav:true,
+				stagePadding: 200
+	        }
+	    }
 	})
 
 	$(document).scroll(function() {
