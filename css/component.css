@@ -147,7 +147,7 @@ html, body, .container, .scroller {
 
 .mp-menu h2 {
 	margin: 0;
-	padding: 1em;
+	padding: 1.05em;
 	color: #eea319;
 	border-bottom: 1px solid;
 	text-shadow: 0 0 1px rgba(0,0,0,0.1);
