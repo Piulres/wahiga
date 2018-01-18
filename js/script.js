@@ -16,11 +16,11 @@ $( document ).ready(function() {
 		$(this).datepicker('hide'); 
 	});
 
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+    // window.onclick = function(event) {
+    //     if (event.target == modal) {
+    //         modal.style.display = "none";
+    //     }
+    // }
 
 
     $('.effect-3').parallax({imageSrc: '../img/example/back-3.jpg'});
@@ -85,6 +85,7 @@ $( document ).ready(function() {
 	    }
 	})
 
+	// avaliar + compartilhar + favoritar
 	$(document).scroll(function() {
 	  var y = $(this).scrollTop();
 	  if (y > 700) {

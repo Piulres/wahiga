@@ -2,6 +2,10 @@ body {
     background-color: #000000;
 }
 
+.container {
+    background-color: transparent;
+}
+
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 
 .demo {
@@ -51,6 +55,36 @@ section {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
+}
+
+.navbar-default .nav-mobile {
+    display: none;
+}
+
+.navbar-default .nav-mobile .logo {
+    width: 100%;
+    height: auto;
+    padding: 0; 
+}
+
+.navbar-default .nav-mobile .mob {
+    width: 33%;
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff; 
+    text-align: left;
+}
+
+.navbar-default .nav-mobile .mob:last-child {
+    text-align: right;
+}
+
+.navbar-default .nav-mobile .mob i {
+    margin: 8px 15px 0px 15px;
 }
 
 header .first {
@@ -1090,10 +1124,22 @@ footer .fa {
     section button {
         width: 100%;
     }
+
+    .second .container {
+        display: none;
+    }
+
+    .navbar-default .nav-mobile {
+        display: block;
+    }
+
+    .navbar {
+        border-bottom: 2px solid #eea319;  
+    }
 }
 
 
-/* less < 400 */
+/* less < 1200 */
 @media (max-width: 1200px) {
     .box-yellow .choose {
         margin-top: 0;
