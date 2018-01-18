@@ -35,7 +35,7 @@ $( document ).ready(function() {
 	})
 
 	// tabs
-	$('.navbar-default .nav-mobile .mob i').click(function (e) {
+	$('.navbar-default .fa-search').click(function (e) {
 		e.preventDefault()
 		$('.morphsearch').toggleClass('active')
 	})
