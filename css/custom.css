@@ -1136,6 +1136,9 @@ footer .fa {
     .navbar {
         border-bottom: 2px solid #eea319;  
     }
+    .score {
+        margin-left: -20px;
+    }
 }
 
 

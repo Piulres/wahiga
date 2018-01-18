@@ -34,6 +34,12 @@ $( document ).ready(function() {
 		$(this).tab('show')
 	})
 
+	// tabs
+	$('.navbar-default .nav-mobile .mob i').click(function (e) {
+		e.preventDefault()
+		$('.morphsearch').toggleClass('active')
+	})
+
     window.sr = ScrollReveal();
 	sr.reveal('.trick');
 
